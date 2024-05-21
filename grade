@@ -1,0 +1,14 @@
+m1,m2,m3=(int(input("Enter your marks\n"))),(int(input("Enter your marks\n"))),(int(input("Enter your marks\n")))
+avg=((m1+m2+m3)/3)
+if(avg>=90):
+    print("\nA grade")
+elif(avg>=80):
+   print("\nB grade")
+elif(avg>=70 ):
+    print("\nC grade")
+elif(avg>=60):
+    print("\nD grade")
+elif(avg>=50 ):
+    print("\n E grade")
+else:
+    print("F grade")
